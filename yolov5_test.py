@@ -177,9 +177,9 @@ class ObjectDetection:
 
 def main():
 
-    # HOST = socket.gethostname()
     HOST = socket.gethostname()
-    PORT = 10001
+    # HOST = "192.168.8.2"
+    PORT = 10000
 
 
     server = CustomSocket(HOST, PORT)
